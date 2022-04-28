@@ -1,20 +1,16 @@
 import React from 'react'
-import Header from '../../components/header/Header'
 import Posts from '../../components/posts/Posts'
-import Side from '../../components/side/Side'
-import Footer from '../../components/footer/Footer'
+// import Side from '../../components/side/Side'
 
-function home() {
+function Home() {
   return (
     <>
-      <Header />
       <main id="main">
         <Posts />
-        <Side />
+        {/* <Side /> */}
       </main>
-      <Footer />
     </>
   )
 }
 
-export default home
+export default Home

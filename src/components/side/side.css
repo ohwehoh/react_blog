@@ -1,0 +1,17 @@
+aside {
+    padding: 1rem;
+    width: 30%;
+}
+aside div {
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media (max-width:1000px){
+    aside {
+        width: 100%;
+    }
+}
