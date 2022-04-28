@@ -18,6 +18,7 @@ export default function Header() {
         <Link to="/login">LOGIN</Link>
         <Link to="/">CONTACT</Link>
         <Link to="/write">WRITE</Link>
+        <Link to="/view">VIEW</Link>
         <Link to="/" className="quiz">
           LOGOUT
         </Link>
